@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170954966-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-170954966-1');
+    </script>
+    <title>Hotel Bon Jesús</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Hotel Bon Jesús">
+    <meta name="keywords" content="bon jesus, hotel, hotel veracruz, hoteles veracruz, hotel bon jesus, hotel en la playa veracruz, veracruz playa">
+    <meta name="author" content="Luis Angel Hernández Castillo">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/testimonial.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="https://kit.fontawesome.com/63c69e6106.js" crossorigin="anonymous"></script>
+    <!-- BX Slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+</head>
+
+<body>
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div id="status">
+            <div class="mul8circ1"></div>
+            <div class="mul8circ2"></div>
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+    <!-- POPUP-->
+    <div class="container">
+        <div class="row">
+            <div id="boxes">
+                <div id="dialog" class="window">
+                    <div class="col-md-12">
+                        <button type="button" class="closed btn-close"><i class="fas fa-times"></i></button>
+                        <img src="images/popup.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-12">
+                        <div id="popupfoot justify-content-center">
+                            <a href="https://wa.me/522297806298?text=¡Hola,%20quiero%20reservar%20una%20habitación%20con%2010%20por%20ciento%20de%20descuento%20adicional!%20Por%20favor." title="¡RESERVA YA!" class="btn agree background-blue-bonjesus" target="_blank">RESERVAR AHORA 👌</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="mask"></div>
+            </div>
+        </div>
+    </div>
+    <!-- /POPUP-->
+    <!-- Head Section -->
+    <div class="header-background">
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="logo" class="logo img-responsive">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="tel:2323210195"><i class="fas fa-phone-alt"></i> (232) 321 0195</a></li>
+                    <br>
+                    <li><a href="mailto:bonjesushotel@gmail.com"><i class="fas fa-envelope"></i> bonjesushotel@gmail.com</a></li><br>
+                    <li><a href="" title="">Check In: 15:00 hrs</a></li><br>
+                    <li><a href="" title="">Check Out: 13:00 hrs</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="clearfix"></div>
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="head-content">
+                        <h2 class="hero-tag wow fadeInUp animated" data-wow-duration="900ms" data-wow-delay="200ms"></h2>
+                        <ul class="action-links">
+                            <!-- # Reservaciones # -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <form action="#" class="booking-form">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <label for="#" class="text-white">Check-in</label>
+                                                        <input type="date" class="form-control" placeholder="Llegada">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <label for="#" class="text-white">Check-out</label>
+                                                        <input type="date" class="form-control" placeholder="Salida">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <label for="#" class="text-white">Habitación</label>
+                                                        <select name="" id="" class="form-control form-reservas">
+                                                            <option value="">Sencilla</option>
+                                                            <option value="">Junior</option>
+                                                            <option value="">Doble</option>
+                                                            <option value="">Master Suite</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <label for="#" class="text-white">Huéspedes</label>
+                                                        <select name="" id="" class="form-control form-reservas">
+                                                            <option value="">1 Adulto</option>
+                                                            <option value="">2 Adulto</option>
+                                                            <option value="">3 Adulto</option>
+                                                            <option value="">4 Adulto</option>
+                                                            <option value="">5 Adulto</option>
+                                                            <option value="">6 Adulto</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 d-flex">
+                                                    <a href="#" class="btn btn-reserva">RESERVAR</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- # /Reservaciones # -->
+                            <li><a href="#" class="btn btn-primary mt-1">Habitaciones</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+    <!-- /Head Section-->
+    <!--  ABOUT US -->
+    <div class="cs-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2 class="sec-heading">NUESTRO HOTEL</h2>
+                    <p class="sec-heading-tag">Escondidos, pero no lo suficiente como para no ser encontrados.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="about-text">Dicen que los secretos no deben ser compartidos, pero sabemos que un lugar como este cuya belleza y tranquilidad son inigualables, no puede quedarse oculto por siempre.</p>
+                    <p class="about-text">Nos encontramos perfectamente ubicados a faldas de una preciosa playa semi virgen en Tecolutla, Veracruz.</p>
+                    <p class="about-text">Ya sea una aventura familiar o una escapada romántica, Bon Jesús Hotel sirve como el escenario perfecto para unas vaciones inmejorables.</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="images/2.jpg" alt="" class="img-responsive wow scaleIn animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /ABOUT US -->
+    <!-- OUR HABITACIONES -->
+    <div class="cs-section-sm grey-background">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2 class="sec-heading">HABITACIONES</h2>
+                    <p class="sec-heading-tag">Nuestros espacios estan perfectamente diseñados para familias o parejas en busca de privacidad, elegancia, modernidad y el mejor servicio. Te invitamos a conocerlo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="borde-habitaciones">
+                        <div class="bxslider">
+                            <div><img src="images/h1.jpg"></div>
+                            <div><img src="images/h2.jpg"></div>
+                            <div><img src="images/h3.jpg"></div>
+                        </div>
+                        <h3 class="color-bonjesus">Habitación Sencilla</h3>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6">
+                                <ul class="texto">
+                                    <li><i class="text-orange fas fa-male"></i> 2 personas</li>
+                                    <li><i class="text-orange fas fa-bed"></i> Cama Queen Size</li>
+                                    <li><i class="text-orange fas fa-snowflake"></i> A/C</li>
+                                    <li><i class="text-orange fas fa-tv"></i> Pantalla plana 32´´</li>
+                                    <li><i class="text-orange fas fa-wifi"></i> WiFi gratuito en todo el hotel</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-xs-6">
+                                <ul class="texto">
+                                    <li><i class="text-orange fas fa-wine-glass-alt"></i> Frigobar</li>
+                                    <li><i class="text-orange fas fa-coffee"></i> Cafetera</li>
+                                    <li><i class="text-orange fas fa-hot-tub"></i> Baño con tina</li>
+                                    <li><i class="text-orange fas fa-ethernet"></i> Servicio de cable</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center mt-1">
+                                <a href="https://wa.me/522297806298?text=¡Hola,%20quiero%20reservar%20la%20habitación%20Sencilla!%20Por%20favor" class="btn btn-habitaciones">RESERVA YA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="borde-habitaciones">
+                        <div class="bxslider">
+                            <div><img src="images/h1.jpg"></div>
+                            <div><img src="images/h2.jpg"></div>
+                            <div><img src="images/h3.jpg"></div>
+                        </div>
+                        <h3 class="color-bonjesus">Habitación Junior</h3>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6">
+                                <ul class="texto">
+                                    <li><i class="text-orange fas fa-male"></i> 2 personas</li>
+                                    <li><i class="text-orange fas fa-bed"></i> Cama King Size</li>
+                                    <li><i class="text-orange fas fa-snowflake"></i> A/C</li>
+                                    <li><i class="text-orange fas fa-tv"></i> Pantalla plana 32´´</li>
+                                    <li><i class="text-orange fas fa-wifi"></i> WiFi gratuito en todo el hotel</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-xs-6">
+                                <ul class="texto">
+                                    <li><i class="text-orange fas fa-wine-glass-alt"></i> Frigobar</li>
+                                    <li><i class="text-orange fas fa-coffee"></i> Cafetera</li>
+                                    <li><i class="text-orange fas fa-hot-tub"></i> Baño con tina</li>
+                                    <li><i class="text-orange fas fa-ethernet"></i> Servicio de cable</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center mt-1">
+                                <a href="https://wa.me/522297806298?text=¡Hola,%20quiero%20reservar%20la%20habitación%20Junior!%20Por%20favor" class="btn btn-habitaciones">RESERVA YA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="borde-habitaciones">
+                        <div class="bxslider">
+                            <div><img src="images/h1.jpg"></div>
+                            <div><img src="images/h2.jpg"></div>
+                            <div><img src="images/h3.jpg"></div>
+                        </div>
+                        <h3 class="color-bonjesus">Habitación Doble</h3>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6">
+                                <ul class="texto">
+                                    <li><i class="text-orange fas fa-male"></i> 2 - 4 personas</li>
+                                    <li><i class="text-orange fas fa-bed"></i> 2 Camas Queen Size</li>
+                                    <li><i class="text-orange fas fa-snowflake"></i> A/C</li>
+                                    <li><i class="text-orange fas fa-tv"></i> Pantalla plana 32´´</li>
+                                    <li><i class="text-orange fas fa-wifi"></i> WiFi gratuito en todo el hotel</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-xs-6">
+                                <ul class="texto">
+                                    <li><i class="text-orange fas fa-wine-glass-alt"></i> Frigobar</li>
+                                    <li><i class="text-orange fas fa-coffee"></i> Cafetera</li>
+                                    <li><i class="text-orange fas fa-hot-tub"></i> Baño con tina</li>
+                                    <li><i class="text-orange fas fa-ethernet"></i> Servicio de cable</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center mt-1">
+                                <a href="https://wa.me/522297806298?text=¡Hola,%20quiero%20reservar%20la%20habitación%20Doble!%20Por%20favor" class="btn btn-habitaciones">RESERVA YA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="borde-habitaciones">
+                        <div class="bxslider">
+                            <div><img src="images/h1.jpg"></div>
+                            <div><img src="images/h2.jpg"></div>
+                            <div><img src="images/h3.jpg"></div>
+                        </div>
+                        <h3 class="color-bonjesus">Habitación Master Suite</h3>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-6">
+                                <ul class="texto">
+                                    <li><i class="text-orange fas fa-male"></i> 2 personas</li>
+                                    <li><i class="text-orange fas fa-bed"></i> Cama King Size</li>
+                                    <li><i class="text-orange fas fa-snowflake"></i> A/C</li>
+                                    <li><i class="text-orange fas fa-tv"></i> Pantalla plana 32´´</li>
+                                    <li><i class="text-orange fas fa-wifi"></i> WiFi gratuito en todo el hotel</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-xs-6">
+                                <ul class="texto">
+                                    <li><i class="text-orange fas fa-wine-glass-alt"></i> Frigobar</li>
+                                    <li><i class="text-orange fas fa-coffee"></i> Cafetera</li>
+                                    <li><i class="text-orange fas fa-hot-tub"></i> Jacuzzi y terraza privada</li>
+                                    <li><i class="text-orange fas fa-ethernet"></i> Servicio de cable</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center mt-1">
+                                <a href="https://wa.me/522297806298?text=¡Hola,%20quiero%20reservar%20la%20habitación%20Master%20Suite!%20Por%20favor" class="btn btn-habitaciones">RESERVA YA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /OUR HABITACIONES -->
+    <!-- ACTIVIDADES ESPECIALES -->
+    <div class="cs-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2 class="sec-heading">EXPERIENCIAS</h2>
+                    <p class="sec-heading-tag">Convierta sus vacaciones en momentos aún más innolvidables disfrutando alguna de las múltiples actividades que tenemos para usted y su familia.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/cabalgata.jpg" alt="" class="img-responsive wow scaleIn animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="texto my-2">
+                                <li><i class="text-orange fas fa-spa"></i> Servicios de belleza (masajes y faciales. Se solicitan con dos horas de anticipación. Precio segun tratamiento).</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="texto">
+                                <li class="mb-2"><i class="text-orange fas fa-water"></i> Recorrido por las Ciénegas del Fuerte (duración: 2 hrs).</li>
+                                <li class="mb-2"><i class="text-orange fas fa-dollar-sign"></i> Costo: $200 mxn (por persona).</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="texto">
+                                <li class="mb-2"><i class="text-orange fas fa-horse"></i> Cabalgata a la orilla del mar (duración 40 min. Servicio complementario sujeto a disponibilidad).</li>
+                                <li class="mb-2"><i class="text-orange fas fa-dollar-sign"></i> Costo: $350 mxn (por persona).</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <a href="https://wa.me/522297806298?text=¡Hola,%20quiero%20reservar%20una%20experiencia!%20Por%20favor" class="btn btn-habitaciones" title="">ME INTERESA</a>
+                        </div>
+                    </div>
+                    <ul class="texto">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /ACTIVIDADES ESPECIALES -->
+    <!-- TESTIMONIAL -->
+    <div class="cs-section dark-background">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2 class="sec-heading primary-color">Lo que opinan nuestros huéspedes</h2>
+                    <p class="sec-heading-tag white-color">Nada describe mejor nuestro trabajo que la satisfacción de todos nuestros invitados.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <!-- TESTIMONIOS -->
+                <div class="cd-testimonials-wrapper cd-container">
+                    <ul class="cd-testimonials">
+                        <li>
+                            <p class="text-white">Muy confortable todo, nada de aglomeraciones, las albercas muy ricas y muy buena atención de todo el personal, las habitaciones están amplias y muy limpias su playa muy tranquila y hay mucha vegetación que da sombra.</p>
+                            <div class="cd-author">
+                                <img src="images/sergio.jpg" alt="Sergio">
+                                <ul class="cd-author-info">
+                                    <li>Sergio</li>
+                                    <li class="text-white">Cliente</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="text-white">Excelente para venir a descansar, precios accesibles y un lugar muy cómodo, buena limpieza y mucha calidez en el servicio la alberca está a buena temperatura, te ofrecen hamacas y camastros sin costo extra los cuartos son amplios y con acabados muy bonitos en general todo en el lugar es una maravilla para perderse un rato de la rutina.</p>
+                            <div class="cd-author">
+                                <img src="images/julioc.jpg" alt="Julio C.">
+                                <ul class="cd-author-info">
+                                    <li>Julio C.</li>
+                                    <li class="text-white">Cliente</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="text-white">A pesar que el clima fue lluvioso, la atención es excelente el personal es muy gentil y atento las habitaciones son limpias y muy lindas, la alberca está de muy buen tamaño y la comida ampliamente recomendable en especial el pan francés y la piña rellena de mariscos delicioso!!! Pasamos un tiempo muy agradable !!!</p>
+                            <div class="cd-author">
+                                <img src="images/mariel.jpg" alt="Marielrohi">
+                                <ul class="cd-author-info">
+                                    <li>Marielrohi</li>
+                                    <li class="text-white">Cliente</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="text-white">Desde la primera vez que conocimos este lugar, sabíamos que no sería la última. Este hotel ha estado en nuestra lista de lugares para visitar cada vez que queremos tener un tiempo de relajación. El personal en conjunto con el dise;o hacen que te olvides de todo! el único problema que encontramos fue el clima, pero tanto las personas de la recepción como la gente en el restaurante nos ayudaron a que el tiempo se fuera volando. Además la comida esta muy sabrosa y a un precio accesible. Obviamente regresaremos... de preferencia cuando el sol salga de nuevo :)</p>
+                            <div class="cd-author">
+                                <img src="images/maria c.jpg" alt="Maria C.">
+                                <ul class="cd-author-info">
+                                    <li>Maria C.</li>
+                                    <li class="text-white">Cliente</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="text-white">Es un hotel muy bonito, nosotros fuimos a un bautizo a Gutiérrez Zamora y decidimos quedarnos en Costa Esmeralda y sorpresa al llegar al hotel! Un lugar super agradable! Queriamos quedarnos más días! Sin duda disfrutamos muchísimo! El restaurante cierra temprano pero tienes muy cerca un oxxo por cualquier cosa! Excelente trato!</p>
+                            <div class="cd-author">
+                                <img src="images/susana.jpg" alt="Susana E.">
+                                <ul class="cd-author-info">
+                                    <li>Susana E.</li>
+                                    <li class="text-white">Cliente</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul> <!-- cd-testimonials -->
+                </div> <!-- cd-testimonials-wrapper -->
+                <!-- /TESTIMONIOS -->
+            </div>
+        </div>
+    </div>
+    <!-- /TESTIMONIAL -->
+    <!-- CONTACT US -->
+    <div class="cs-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h2 class="sec-heading">CONTÁCTANOS</h2>
+                    <p class="sec-heading-tag">Carretera Nautla-Poza Rica KM 79, Costa Esmeralda, Veracruz. C.P. 93588. México.</p>
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <!-- Form -->
+                            <div id="contact-form" class="wow fadeIn first">
+                                <form class="header-form" id="contactForm" data-toggle="validator">
+                                    <div class="col-sm-6 pad-right">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="nombre" placeholder="Nombre Completo*" id="name" required>
+                                            <div class="help-block with-errors text-danger"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="mail" class="form-control" name="email" placeholder="E-mail*" id="email" required>
+                                            <div class="help-block with-errors text-danger"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="tel" class="form-control" name="tel" placeholder="Teléfono (10 digitos)*" id="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                                            <div class="help-block with-errors text-danger"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 pad-left">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" rows="8" placeholder="Mensaje*" id="message" required></textarea>
+                                            <div class="help-block with-errors text-danger"></div>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        </div>
+                                    </div>
+                                    <p>*Campos obligatorios.</p>
+                                    <div class="col-sm-12">
+                                        <button type="submit" class="btn btn-primary center-block btn-full">Enviar mensaje</button>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- ends Form -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /CONTACT US -->
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-6">
+                    <p class="copyright text-left text-white">
+                        Copyright &copy;<script>
+                        document.write(new Date().getFullYear());
+                        </script>. Todos los derechos reservados. Desarrollado por <a href="http://parapenteagencia.com" class="text-orange" target="_blank" data-toggle="tooltip" data-placement="top" title="¡Visítanos!">Parapente </a><i class="fa fa-heart-o" aria-hidden="true"></i>.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-share float-right">
+                        <li><a href="https://web.facebook.com/HotelBonJesus" target="_blank" class="text-white animated wow zoomIn animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/bonjesushotel/" target="_blank" class="text-white animated wow zoomIn animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="back-to-top show" title="Move to top"><i class="glyphicon glyphicon-arrow-up"></i></a>
+        <a href="https://wa.me/522297806298?text=¡Hola,%20quiero%20reservar%20una%20habitación!%20Por%20favor" target="_blank" class="whats">
+            <img src="images/whatsapp.png" alt="What's App">
+        </a>
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat" attribution=install_email page_id="227888027324988" theme_color="#fb9502" logged_in_greeting="&#xa1;Hola! &#xa1;Gracias por contactarnos!" logged_out_greeting="&#xa1;Hola! &#xa1;Gracias por contactarnos!">
+        </div>
+    </div>
+    <!-- /FOOTER -->
+    <!-- Script files-->
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <!-- BxSlider -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/bxslider.js"></script>
+    <!-- PopUp-->
+    <script src="js/popup.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/testimonial.js"></script> <!-- Resource jQuery -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- contact-form -->
+    <script src="js/validator.min.js"></script>
+    <script src="js/form.js"></script>
+    <!-- Facebook Messenger -->
+    <script src="js/fbmessenger.js"></script>
+</body>
+
+</html>
